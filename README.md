@@ -17,6 +17,31 @@ To list all the directories on your `fpath`:
 $ echo "$fpath" | tr " " "\n"
 ```
 
+### Installation for oh-my-zsh
+
+1. In the command line, change to `oh-my-zsh` plugins directory:
+
+	```console
+	$ cd ~/.oh-my-zsh/custom/plugins
+	```
+
+2. Clone the repository into a new directory called `pebble`:
+
+	```console
+	git clone https://github.com/Neal/pebble-zsh-completion.git pebble
+	```
+
+3. Include `pebble` plugin to your `.zshrc` file along with other plugins:
+
+	```zsh
+	...
+	plugins=(git pebble)
+	...
+	```
+
+4. Restart your terminal application.
+
+
 ## Contributors
 
 * [Neal](https://github.com/Neal)
