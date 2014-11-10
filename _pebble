@@ -65,6 +65,7 @@ case "$words[1]" in
 			'--verbose[Prints received system logs in addition to APP_LOG]' \
 			'--logs[Display logs after installing the bundle]' \
 			'--direct[Install directly on watch.]'
+		_files
 	;;
 	ping|list|rm|current|uuids|logs|repl|screenshot)
 		_arguments \
