@@ -1,5 +1,7 @@
 #compdef pebble
 
+# last updated for PebbleSDK 2.7
+
 typeset -A opt_args
 
 local -a _1st_arguments
