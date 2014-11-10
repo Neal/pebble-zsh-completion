@@ -1,6 +1,6 @@
 # pebble-zsh-completion
 
-A [zsh](http://www.zsh.org) completion script for [pebble](https://developer.getpebble.com/2/additional/pebble-tool/).
+A [zsh](http://www.zsh.org) completion script for [pebble](https://developer.getpebble.com/guides/publishing-tools/pebble-tool).
 
 ## Installation
 
